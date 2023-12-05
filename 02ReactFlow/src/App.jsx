@@ -5,11 +5,12 @@ import './App.css'
 import Chai from './Chai'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const username = 'chai or code'
   return (
     <>
-     <h1>Hello Everyone | Day-2 </h1>
+     <h1>Hello Everyone | Day-2 ({username})  
+     {/*evaluated expression  called final output */}
+      </h1>
      <Chai/>
     </>
   )
