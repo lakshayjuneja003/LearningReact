@@ -1,0 +1,17 @@
+https://github.com/acdlite/react-fiber-architecture
+using that article to understand the react fibre virtual dom 
+
+main points-
+1. the goal of the react fibre is to increase the suitability for areas like animations,layouts and gestures.
+2. headline features in incremental rendering
+ *3. key features of react fibre is pause, abort or reusework as new update in ;
+
+
+ Reconciliation means re-consider to whom give priority first to update 
+ /
+ the algorithim React use to diff one tree with another to determine which prats need to be changed
+ /
+update :-
+    A change in the data used to render a raect app . Usually th result of the 'setState' 
+    Eventually results in a re-render
+
